@@ -1,0 +1,36 @@
+# Ignore file di Git
+
+# IDE & Editor
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.code-workspace
+
+# OS
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# Node modules (jika menggunakan npm/nodejs)
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Build & Dist
+dist/
+build/
+*.min.css
+*.min.js
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Temporary files
+*.tmp
+*.bak
+*.log

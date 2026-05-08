@@ -1,0 +1,27 @@
+{
+  "name": "portofolio-hadi",
+  "version": "1.0.0",
+  "description": "Personal Portfolio Website for Hadi",
+  "main": "index.html",
+  "scripts": {
+    "start": "open index.html",
+    "serve": "python -m http.server 8000",
+    "serve-windows": "python -m http.server"
+  },
+  "keywords": [
+    "portfolio",
+    "personal-website",
+    "web-developer",
+    "ui-ux-designer"
+  ],
+  "author": "Hadi",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "bugs": {
+    "url": ""
+  },
+  "homepage": ""
+}

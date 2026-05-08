@@ -1,0 +1,242 @@
+/* ===========================
+   TEMPLATE KUSTOMISASI - TEMA ALTERNATIF
+   =========================== */
+
+/* 
+   Uncomment salah satu dari tema di bawah untuk mengubah warna portofolio
+*/
+
+/* ===========================
+   TEMA 1: UNGU & CYAN (Recommended)
+   =========================== */
+/*
+:root {
+    --primary-color: #a855f7;
+    --secondary-color: #06b6d4;
+    --dark-bg: #0f172a;
+    --light-bg: #f8fafc;
+    --card-bg: #1e293b;
+    --text-primary: #f1f5f9;
+    --text-secondary: #cbd5e1;
+    --border-color: #334155;
+    --transition: all 0.3s ease;
+}
+*/
+
+/* ===========================
+   TEMA 2: HIJAU & EMERALD
+   =========================== */
+/*
+:root {
+    --primary-color: #10b981;
+    --secondary-color: #34d399;
+    --dark-bg: #0f172a;
+    --light-bg: #f8fafc;
+    --card-bg: #1e293b;
+    --text-primary: #f1f5f9;
+    --text-secondary: #cbd5e1;
+    --border-color: #334155;
+    --transition: all 0.3s ease;
+}
+*/
+
+/* ===========================
+   TEMA 3: ORANGE & RED
+   =========================== */
+/*
+:root {
+    --primary-color: #f97316;
+    --secondary-color: #ff6b6b;
+    --dark-bg: #0f172a;
+    --light-bg: #f8fafc;
+    --card-bg: #1e293b;
+    --text-primary: #f1f5f9;
+    --text-secondary: #cbd5e1;
+    --border-color: #334155;
+    --transition: all 0.3s ease;
+}
+*/
+
+/* ===========================
+   TEMA 4: LIGHT MODE
+   =========================== */
+/*
+:root {
+    --primary-color: #6366f1;
+    --secondary-color: #ec4899;
+    --dark-bg: #ffffff;
+    --light-bg: #f8fafc;
+    --card-bg: #f1f5f9;
+    --text-primary: #0f172a;
+    --text-secondary: #475569;
+    --border-color: #e2e8f0;
+    --transition: all 0.3s ease;
+}
+*/
+
+/* ===========================
+   CUSTOM FONT DARI GOOGLE FONTS
+   =========================== */
+
+/*
+   Tambahkan di bagian <head> index.html:
+   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+   
+   Kemudian uncomment CSS di bawah:
+*/
+
+/*
+body {
+    font-family: 'Poppins', sans-serif;
+}
+*/
+
+/* ===========================
+   ANIMASI EXTRA - HOVER EFFECTS
+   =========================== */
+
+/*
+   Tambahkan efek hover yang lebih menarik:
+*/
+
+/*
+.skill-item {
+    animation: float 3s ease-in-out infinite;
+}
+
+@keyframes float {
+    0%, 100% {
+        transform: translateY(0px);
+    }
+    50% {
+        transform: translateY(-10px);
+    }
+}
+
+.project-card {
+    animation: slideIn 0.6s ease-out;
+}
+
+@keyframes slideIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+*/
+
+/* ===========================
+   SHADOW & BLUR EFFECTS
+   =========================== */
+
+/*
+   Ganti box-shadow di class tertentu:
+*/
+
+/*
+.skill-item:hover {
+    box-shadow: 0 20px 40px rgba(99, 102, 241, 0.4);
+}
+
+.project-card:hover {
+    box-shadow: 0 30px 60px rgba(236, 72, 153, 0.3);
+}
+*/
+
+/* ===========================
+   BORDER RADIUS CUSTOMIZATION
+   =========================== */
+
+/*
+   Untuk border yang lebih rounded:
+*/
+
+/*
+.skill-item,
+.project-card,
+.certificate-card {
+    border-radius: 20px;
+}
+
+.btn,
+.tech-badge,
+.cert-link {
+    border-radius: 10px;
+}
+*/
+
+/* ===========================
+   CUSTOM SCROLLBAR
+   =========================== */
+
+/*
+   Untuk scrollbar yang lebih cantik:
+*/
+
+/*
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: var(--card-bg);
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--primary-color);
+    border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: var(--secondary-color);
+}
+*/
+
+/* ===========================
+   GRADIENT BACKGROUNDS
+   =========================== */
+
+/*
+   Untuk background gradient yang lebih eye-catching:
+*/
+
+/*
+.hero {
+    background: linear-gradient(135deg, 
+        rgba(99, 102, 241, 0.15) 0%, 
+        rgba(236, 72, 153, 0.15) 50%,
+        rgba(99, 102, 241, 0.15) 100%);
+}
+
+.section-title {
+    background: linear-gradient(135deg, 
+        #6366f1 0%, 
+        #8b5cf6 50%, 
+        #ec4899 100%);
+}
+*/
+
+/* ===========================
+   BACKDROP BLUR EFFECT
+   =========================== */
+
+/*
+   Untuk efek frosted glass:
+*/
+
+/*
+.navbar {
+    background-color: rgba(15, 23, 42, 0.7);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+}
+
+.card {
+    background: rgba(30, 41, 59, 0.5);
+    backdrop-filter: blur(10px);
+}
+*/
